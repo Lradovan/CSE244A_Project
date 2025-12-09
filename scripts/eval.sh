@@ -1,0 +1,1 @@
+python3 src/evaluation.py --api_key $API_KEY --model_name "claude-haiku-4-5" --output_file_path "results/out-claude-haiku-4-5.json" --mode "text"

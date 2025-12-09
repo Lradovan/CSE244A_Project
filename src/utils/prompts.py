@@ -1,0 +1,3 @@
+TEXT_ONLY_PROMPT = """Please answer the multiple-choice question based on the given 10x10 emoji art:\n\n[EMOJI ART]\n{emoji_art}\n\n[Question]\nWhat is depicted in the above emoji art?\n\n[Choices]\n{choices}\n\nYour final answer should be a single letter only (A, B, C, or D)."""
+
+IMAGE_ONLY_PROMPT = """Please answer the multiple-choice question based on the given 10x10 pixel art image.\n\n[Question]\nWhat is depicted in the above pixel art?\n\n[Choices]\n{choices}\n\nYour final answer should be a single letter only (A, B, C, or D)."""

@@ -1,0 +1,1021 @@
+keycap: #
+keycap: *
+keycap: 0
+keycap: 1
+keycap: 2
+keycap: 3
+keycap: 4
+keycap: 5
+keycap: 6
+keycap: 7
+keycap: 8
+keycap: 9
+copyright
+registered
+A button (blood type)
+B button (blood type)
+O button (blood type)
+P button
+AB button (blood type)
+CL button
+COOL button
+FREE button
+ID button
+NEW button
+NG button
+OK button
+SOS button
+UP! button
+VS button
+flag: United Arab Emirates
+flag: Armenia
+flag: Angola
+flag: Antarctica
+flag: Austria
+flag: Aruba
+flag: Åland Islands
+flag: Azerbaijan
+flag: Bangladesh
+flag: Belgium
+flag: Burkina Faso
+flag: Bulgaria
+flag: Bahrain
+flag: Benin
+flag: Bolivia
+flag: Bahamas
+flag: Botswana
+flag: Canada
+flag: Switzerland
+flag: Côte d’Ivoire
+flag: Chile
+flag: Cameroon
+flag: Colombia
+flag: Clipperton Island
+flag: Costa Rica
+flag: Cape Verde
+flag: Curaçao
+flag: Czechia
+flag: Germany
+flag: Djibouti
+flag: Denmark
+flag: Lithuania
+flag: Algeria
+flag: Estonia
+flag: Western Sahara
+flag: European Union
+flag: Finland
+flag: Micronesia
+flag: Faroe Islands
+flag: France
+flag: Gabon
+flag: French Guiana
+flag: Ghana
+flag: Greenland
+flag: Guinea
+flag: Greece
+flag: Guinea-Bissau
+flag: Guyana
+flag: Honduras
+flag: Hungary
+flag: Canary Islands
+flag: Indonesia
+flag: Ireland
+flag: Iceland
+flag: Italy
+flag: Jamaica
+flag: Jordan
+flag: Japan
+flag: South Korea
+flag: Kuwait
+flag: Luxembourg
+flag: Latvia
+flag: Libya
+flag: Monaco
+flag: St. Martin
+flag: Madagascar
+flag: Marshall Islands
+flag: Mali
+flag: Myanmar (Burma)
+flag: Mongolia
+flag: Mauritania
+flag: Malta
+flag: Maldives
+flag: Mozambique
+flag: Norfolk Island
+flag: Nigeria
+flag: Netherlands
+flag: Nepal
+flag: Oman
+flag: Peru
+flag: Philippines
+flag: Poland
+flag: Palestinian Territories
+flag: Palau
+flag: Paraguay
+flag: Réunion
+flag: Romania
+flag: Russia
+flag: Seychelles
+flag: Sudan
+flag: Sweden
+flag: Sierra Leone
+flag: Senegal
+flag: Somalia
+flag: Suriname
+flag: South Sudan
+flag: São Tomé &amp; Príncipe
+flag: Syria
+flag: Timor-Leste
+flag: Tonga
+flag: Turkey
+flag: Trinidad &amp; Tobago
+flag: Tanzania
+flag: Ukraine
+flag: Uganda
+flag: Vietnam
+flag: Samoa
+flag: Yemen
+flag: South Africa
+flag: Zambia
+flag: Zimbabwe
+cyclone
+closed umbrella
+sunrise
+cityscape at dusk
+rainbow
+bridge at night
+water wave
+volcano
+globe showing Europe-Africa
+globe showing Americas
+globe showing Asia-Australia
+globe with meridians
+new moon
+waxing crescent moon
+first quarter moon
+waxing gibbous moon
+full moon
+waning gibbous moon
+last quarter moon
+waning crescent moon
+crescent moon
+new moon face
+first quarter moon face
+last quarter moon face
+full moon face
+sun with face
+glowing star
+shooting star
+thermometer
+sun behind small cloud
+sun behind large cloud
+sun behind rain cloud
+cloud with rain
+cloud with snow
+cloud with lightning
+tornado
+wind face
+taco
+chestnut
+seedling
+evergreen tree
+deciduous tree
+palm tree
+cactus
+hot pepper
+tulip
+rose
+hibiscus
+sunflower
+blossom
+sheaf of rice
+herb
+four leaf clover
+maple leaf
+fallen leaf
+leaf fluttering in wind
+mushroom
+tomato
+eggplant
+melon
+watermelon
+tangerine
+lemon
+banana
+pineapple
+red apple
+green apple
+pear
+peach
+cherries
+strawberry
+hamburger
+pizza
+meat on bone
+poultry leg
+rice cracker
+rice ball
+cooked rice
+curry rice
+steaming bowl
+spaghetti
+bread
+french fries
+roasted sweet potato
+dango
+oden
+sushi
+fried shrimp
+soft ice cream
+ice cream
+doughnut
+cookie
+chocolate bar
+candy
+lollipop
+custard
+shortcake
+bento box
+pot of food
+cooking
+fork and knife
+sake
+wine glass
+cocktail glass
+tropical drink
+beer mug
+baby bottle
+popcorn
+ribbon
+wrapped gift
+jack-o-lantern
+Christmas tree
+Santa Claus
+sparkler
+balloon
+party popper
+confetti ball
+tanabata tree
+crossed flags
+graduation cap
+military medal
+reminder ribbon
+film frames
+carousel horse
+roller coaster
+fishing pole
+movie camera
+cinema
+headphone
+artist palette
+top hat
+circus tent
+ticket
+clapper board
+bullseye
+slot machine
+pool 8 ball
+game die
+bowling
+musical note
+musical notes
+saxophone
+guitar
+musical keyboard
+trumpet
+violin
+musical score
+running shirt
+tennis
+skis
+chequered flag
+snowboarder
+person running
+person surfing
+sports medal
+trophy
+horse racing
+person swimming
+person lifting weights
+racing car
+volleyball
+field hockey
+ice hockey
+ping pong
+snow-capped mountain
+camping
+houses
+cityscape
+desert island
+stadium
+house
+house with garden
+hospital
+ATM sign
+hotel
+love hotel
+school
+red paper lantern
+Japanese castle
+castle
+white flag
+rainbow flag
+black flag
+pirate flag
+flag: England
+flag: Scotland
+flag: Wales
+rosette
+badminton
+bow and arrow
+amphora
+rat
+mouse
+ox
+cow
+tiger
+leopard
+rabbit
+cat
+dragon
+crocodile
+whale
+snail
+snake
+horse
+ram
+ewe
+monkey
+rooster
+chicken
+dog
+boar
+elephant
+octopus
+spiral shell
+bug
+ant
+honeybee
+lady beetle
+fish
+tropical fish
+blowfish
+turtle
+hatching chick
+baby chick
+front-facing baby chick
+penguin
+koala
+poodle
+camel
+two-hump camel
+dolphin
+mouse face
+tiger face
+cat face
+dragon face
+spouting whale
+horse face
+monkey face
+dog face
+frog
+hamster
+wolf
+bear
+polar bear
+panda
+pig nose
+paw prints
+chipmunk
+eyes
+eye
+eye in speech bubble
+ear
+nose
+mouth
+tongue
+backhand index pointing up
+backhand index pointing down
+backhand index pointing left
+backhand index pointing right
+oncoming fist
+waving hand
+OK hand
+thumbs up
+thumbs down
+clapping hands
+crown
+glasses
+t-shirt
+jeans
+dress
+kimono
+bikini
+purse
+clutch bag
+running shoe
+high-heeled shoe
+footprints
+person wearing turban
+goblin
+ghost
+baby angel
+alien
+alien monster
+angry face with horns
+person tipping hand
+guard
+barber pole
+syringe
+pill
+kiss mark
+love letter
+ring
+gem stone
+beating heart
+broken heart
+two hearts
+sparkling heart
+growing heart
+heart with arrow
+blue heart
+green heart
+yellow heart
+purple heart
+heart with ribbon
+revolving hearts
+heart decoration
+diamond with a dot
+light bulb
+anger symbol
+bomb
+zzz
+collision
+sweat droplets
+droplet
+dashing away
+pile of poo
+flexed biceps
+dizzy
+speech balloon
+thought balloon
+hundred points
+money bag
+heavy dollar sign
+credit card
+dollar banknote
+euro banknote
+pound banknote
+laptop
+briefcase
+computer disk
+floppy disk
+dvd
+calendar
+card index
+chart increasing
+chart decreasing
+bar chart
+pushpin
+round pushpin
+triangular ruler
+bookmark tabs
+green book
+blue book
+orange book
+scroll
+telephone receiver
+satellite antenna
+envelope with arrow
+closed mailbox with lowered flag
+closed mailbox with raised flag
+open mailbox with raised flag
+open mailbox with lowered flag
+postbox
+postal horn
+camera
+camera with flash
+video camera
+television
+radio
+videocassette
+film projector
+counterclockwise arrows button
+muted speaker
+speaker low volume
+speaker medium volume
+speaker high volume
+battery
+electric plug
+magnifying glass tilted left
+magnifying glass tilted right
+locked with key
+key
+locked
+unlocked
+bell
+bell with slash
+bookmark
+link
+BACK arrow
+END arrow
+ON! arrow
+SOON arrow
+TOP arrow
+keycap: 10
+fire
+flashlight
+wrench
+kitchen knife
+water pistol
+microscope
+telescope
+crystal ball
+trident emblem
+red circle
+large orange diamond
+small orange diamond
+red triangle pointed up
+red triangle pointed down
+upwards button
+downwards button
+dove
+kaaba
+menorah
+candle
+mantelpiece clock
+hole
+person in suit levitating
+detective
+sunglasses
+spider
+spider web
+hand with fingers splayed
+middle finger
+vulcan salute
+black heart
+framed picture
+wastebasket
+spiral calendar
+clamp
+old key
+rolled-up newspaper
+dagger
+speaking head
+left speech bubble
+right anger bubble
+ballot box with ballot
+world map
+mount fuji
+Tokyo tower
+grinning face
+face with tears of joy
+grinning face with sweat
+smiling face with horns
+winking face
+relieved face
+smiling face with heart-eyes
+smiling face with sunglasses
+smirking face
+neutral face
+downcast face with sweat
+confounded face
+kissing face
+face blowing a kiss
+face with tongue
+winking face with tongue
+squinting face with tongue
+disappointed face
+angry face
+pouting face
+crying face
+face with steam from nose
+frowning face with open mouth
+loudly crying face
+face with open mouth
+face exhaling
+hushed face
+face screaming in fear
+astonished face
+flushed face
+sleeping face
+face with crossed-out eyes
+face with spiral eyes
+face without mouth
+face in clouds
+face with medical mask
+upside-down face
+face with rolling eyes
+person gesturing OK
+person bowing
+person raising hand
+raising hands
+rocket
+helicopter
+locomotive
+railway car
+bullet train
+metro
+station
+tram
+bus
+oncoming bus
+trolleybus
+minibus
+ambulance
+fire engine
+police car
+oncoming police car
+taxi
+oncoming taxi
+automobile
+oncoming automobile
+sport utility vehicle
+delivery truck
+articulated lorry
+tractor
+mountain cableway
+aerial tramway
+ship
+speedboat
+horizontal traffic light
+vertical traffic light
+construction
+triangular flag
+door
+prohibited
+cigarette
+no smoking
+litter in bin sign
+potable water
+non-potable water
+bicycle
+no bicycles
+person biking
+person walking
+no pedestrians
+children crossing
+men’s room
+women’s room
+restroom
+baby symbol
+toilet
+water closet
+shower
+person taking bath
+bathtub
+couch and lamp
+person in bed
+shopping bags
+bellhop bell
+bed
+stop sign
+shopping cart
+hut
+playground slide
+wheel
+ring buoy
+railway track
+motor boat
+small airplane
+airplane departure
+airplane arrival
+satellite
+passenger ship
+kick scooter
+motor scooter
+canoe
+sled
+flying saucer
+skateboard
+pickup truck
+roller skate
+orange circle
+green circle
+purple circle
+red square
+orange square
+green square
+purple square
+heavy equals sign
+pinched fingers
+white heart
+brown heart
+pinching hand
+zipper-mouth face
+money-mouth face
+face with thermometer
+nerd face
+thinking face
+face with head-bandage
+robot
+smiling face with open hands
+call me hand
+raised back of hand
+left-facing fist
+right-facing fist
+cowboy hat face
+nauseated face
+rolling on the floor laughing
+drooling face
+person facepalming
+sneezing face
+face with raised eyebrow
+star-struck
+zany face
+shushing face
+face with hand over mouth
+face vomiting
+exploding head
+selfie
+person cartwheeling
+person fencing
+person playing water polo
+person playing handball
+diving mask
+wilted flower
+clinking glasses
+spoon
+1st place medal
+2nd place medal
+3rd place medal
+boxing glove
+martial arts uniform
+curling stone
+lacrosse
+softball
+croissant
+bacon
+potato
+carrot
+baguette bread
+green salad
+egg
+kiwi fruit
+bowl with spoon
+coconut
+pretzel
+cut of meat
+mango
+smiling face with hearts
+smiling face with tear
+partying face
+hot face
+ninja
+disguised face
+face holding back tears
+pleading face
+lab coat
+goggles
+hiking boot
+flat shoe
+crab
+turkey
+unicorn
+eagle
+duck
+bat
+shark
+owl
+fox
+butterfly
+deer
+lizard
+shrimp
+squid
+giraffe
+zebra
+hedgehog
+sauropod
+T-Rex
+cricket
+llama
+peacock
+parrot
+raccoon
+lobster
+swan
+mammoth
+dodo
+sloth
+skunk
+flamingo
+bone
+leg
+foot
+tooth
+superhero
+cheese wedge
+cupcake
+beverage box
+mate
+troll
+person kneeling
+face with monocle
+person
+farmer
+cook
+student
+office worker
+mechanic
+scientist
+firefighter
+person with white cane
+person: red hair
+person: bald
+person: white hair
+person in manual wheelchair
+health worker
+judge
+person: beard
+person climbing
+mage
+mermaid
+orange heart
+firecracker
+puzzle piece
+abacus
+toolbox
+magnet
+teddy bear
+broom
+basket
+roll of paper
+ballet shoes
+drop of blood
+stethoscope
+kite
+magic wand
+piñata
+chair
+razor
+axe
+military helmet
+long drum
+hook
+window
+plunger
+sewing needle
+toothbrush
+placard
+worm
+beetle
+cockroach
+potted plant
+coral
+nest with eggs
+lungs
+pregnant person
+person with crown
+blueberries
+bell pepper
+olive
+tamale
+teapot
+melting face
+face with open eyes and hand over mouth
+face with peeking eye
+face with diagonal mouth
+dotted line face
+bubbles
+hand with index finger and thumb crossed
+rightwards hand
+leftwards hand
+palm down hand
+palm up hand
+index pointing at the viewer
+heart hands
+double exclamation mark
+exclamation question mark
+information
+left-right arrow
+up-down arrow
+up-left arrow
+up-right arrow
+down-right arrow
+down-left arrow
+right arrow curving left
+left arrow curving right
+watch
+hourglass done
+eject button
+fast-forward button
+fast reverse button
+fast up button
+fast down button
+next track button
+last track button
+play or pause button
+alarm clock
+stopwatch
+hourglass not done
+pause button
+circled M
+play button
+reverse button
+sun
+cloud
+umbrella
+snowman
+telephone
+umbrella with rain drops
+hot beverage
+shamrock
+index pointing up
+skull and crossbones
+star and crescent
+frowning face
+smiling face
+female sign
+male sign
+Aries
+Taurus
+Gemini
+Cancer
+Leo
+Virgo
+Libra
+Scorpio
+Sagittarius
+Capricorn
+Aquarius
+Pisces
+spade suit
+club suit
+heart suit
+diamond suit
+recycling symbol
+wheelchair symbol
+hammer and pick
+anchor
+crossed swords
+balance scale
+fleur-de-lis
+warning
+high voltage
+transgender symbol
+white circle
+black circle
+soccer ball
+baseball
+snowman without snow
+sun behind cloud
+cloud with lightning and rain
+Ophiuchus
+pick
+rescue worker’s helmet
+no entry
+shinto shrine
+church
+mountain
+umbrella on ground
+flag in hole
+ferry
+sailboat
+ice skate
+person bouncing ball
+tent
+scissors
+check mark button
+airplane
+raised fist
+raised hand
+victory hand
+writing hand
+pencil
+check mark
+multiply
+latin cross
+star of David
+sparkles
+eight-spoked asterisk
+eight-pointed star
+snowflake
+sparkle
+cross mark
+cross mark button
+red question mark
+white question mark
+white exclamation mark
+red exclamation mark
+heart exclamation
+red heart
+heart on fire
+mending heart
+plus
+minus
+divide
+right arrow
+curly loop
+double curly loop
+right arrow curving up
+right arrow curving down
+left arrow
+up arrow
+down arrow
+black large square
+white large square
+star
+hollow red circle
+wavy dash
+part alternation mark

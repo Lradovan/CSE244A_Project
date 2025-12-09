@@ -1,0 +1,8 @@
+emojis/
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+venv/
+.venv/
+.vscode/
