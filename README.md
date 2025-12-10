@@ -1,5 +1,5 @@
 # UCSC CSE244A
-## Text-only Spatial Perception: How well do LLMs interpret emoji-encoded 2D grids?
+## Can LLMs Parse Spatial Structure from Text? A Benchmark Using Emoji-Encoded Pixel Art.
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](assets/conversion.png)
 
