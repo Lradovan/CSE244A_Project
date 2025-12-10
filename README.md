@@ -19,6 +19,8 @@ pip install -r requirements.txt
 
 Emoji artwork used in this benchmark is derived from the SerenityOS Emoji Project and is licensed under the BSD 2-Clause License. Copyright © 2018–2023 the SerenityOS developers, Linus Groh, and Gegga Thor. The full license text is provided in `licenses/serenityos-emoji.txt.`
 
+The dataset is located under `data/test.jsonl`, and can be viewed in the browser by following step 4 below. The following steps can be used to re-create the dataset from the source art.
+
 1. Download the serenity OS emojis from [here](https://emoji.serenityos.org/).
 
 2. Convert the emoji images into a JSONL dataset comprised of emoji-encoded grids: 
