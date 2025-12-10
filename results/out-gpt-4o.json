@@ -1,0 +1,8226 @@
+{
+  "model": "gpt-4o",
+  "mode": "text",
+  "overall": {
+    "total": 1021,
+    "correct": 433,
+    "accuracy": 0.4240940254652302
+  },
+  "per_category": {
+    "Symbols": {
+      "total": 147,
+      "correct": 62,
+      "accuracy": 0.4217687074829932
+    },
+    "Flags": {
+      "total": 121,
+      "correct": 75,
+      "accuracy": 0.6198347107438017
+    },
+    "Travel & Places": {
+      "total": 140,
+      "correct": 61,
+      "accuracy": 0.4357142857142857
+    },
+    "Food & Drink": {
+      "total": 86,
+      "correct": 28,
+      "accuracy": 0.32558139534883723
+    },
+    "Animals & Nature": {
+      "total": 113,
+      "correct": 41,
+      "accuracy": 0.36283185840707965
+    },
+    "Activities": {
+      "total": 57,
+      "correct": 23,
+      "accuracy": 0.40350877192982454
+    },
+    "People & Body": {
+      "total": 98,
+      "correct": 31,
+      "accuracy": 0.3163265306122449
+    },
+    "Objects": {
+      "total": 142,
+      "correct": 62,
+      "accuracy": 0.43661971830985913
+    },
+    "Smileys & Emotion": {
+      "total": 117,
+      "correct": 50,
+      "accuracy": 0.42735042735042733
+    }
+  },
+  "detailed_results": [
+    {
+      "unicode": "U+0023_U+FE0F_U+20E3",
+      "name": "keycap: #",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+002A_U+FE0F_U+20E3",
+      "name": "keycap: *",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+0030_U+FE0F_U+20E3",
+      "name": "keycap: 0",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+0031_U+FE0F_U+20E3",
+      "name": "keycap: 1",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+0032_U+FE0F_U+20E3",
+      "name": "keycap: 2",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+0033_U+FE0F_U+20E3",
+      "name": "keycap: 3",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+0034_U+FE0F_U+20E3",
+      "name": "keycap: 4",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+0035_U+FE0F_U+20E3",
+      "name": "keycap: 5",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+0036_U+FE0F_U+20E3",
+      "name": "keycap: 6",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+0037_U+FE0F_U+20E3",
+      "name": "keycap: 7",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+0038_U+FE0F_U+20E3",
+      "name": "keycap: 8",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+0039_U+FE0F_U+20E3",
+      "name": "keycap: 9",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+00A9",
+      "name": "copyright",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+00AE",
+      "name": "registered",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F170",
+      "name": "A button (blood type)",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F171",
+      "name": "B button (blood type)",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F17E",
+      "name": "O button (blood type)",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F17F",
+      "name": "P button",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F18E",
+      "name": "AB button (blood type)",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F191",
+      "name": "CL button",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F192",
+      "name": "COOL button",
+      "category": "Symbols",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F193",
+      "name": "FREE button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F194",
+      "name": "ID button",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F195",
+      "name": "NEW button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F196",
+      "name": "NG button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F197",
+      "name": "OK button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F198",
+      "name": "SOS button",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F199",
+      "name": "UP! button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F19A",
+      "name": "VS button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1E6_U+1F1EA",
+      "name": "flag: United Arab Emirates",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1E6_U+1F1F2",
+      "name": "flag: Armenia",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E6_U+1F1F4",
+      "name": "flag: Angola",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E6_U+1F1F6",
+      "name": "flag: Antarctica",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E6_U+1F1F9",
+      "name": "flag: Austria",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E6_U+1F1FC",
+      "name": "flag: Aruba",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E6_U+1F1FD",
+      "name": "flag: Åland Islands",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E6_U+1F1FF",
+      "name": "flag: Azerbaijan",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E7_U+1F1E9",
+      "name": "flag: Bangladesh",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E7_U+1F1EA",
+      "name": "flag: Belgium",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E7_U+1F1EB",
+      "name": "flag: Burkina Faso",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1E7_U+1F1EC",
+      "name": "flag: Bulgaria",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1E7_U+1F1ED",
+      "name": "flag: Bahrain",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E7_U+1F1EF",
+      "name": "flag: Benin",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E7_U+1F1F4",
+      "name": "flag: Bolivia",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E7_U+1F1F8",
+      "name": "flag: Bahamas",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E7_U+1F1FC",
+      "name": "flag: Botswana",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1E6",
+      "name": "flag: Canada",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1ED",
+      "name": "flag: Switzerland",
+      "category": "Flags",
+      "response": "C: flag: Philippines",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1EE",
+      "name": "flag: Côte d’Ivoire",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1F1",
+      "name": "flag: Chile",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1F2",
+      "name": "flag: Cameroon",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1F4",
+      "name": "flag: Colombia",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1F5",
+      "name": "flag: Clipperton Island",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1F7",
+      "name": "flag: Costa Rica",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1FB",
+      "name": "flag: Cape Verde",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1FC",
+      "name": "flag: Curaçao",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1E8_U+1F1FF",
+      "name": "flag: Czechia",
+      "category": "Flags",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1E9_U+1F1EA",
+      "name": "flag: Germany",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1E9_U+1F1EF",
+      "name": "flag: Djibouti",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1E9_U+1F1F0",
+      "name": "flag: Denmark",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F1_U+1F1F9",
+      "name": "flag: Lithuania",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1E9_U+1F1FF",
+      "name": "flag: Algeria",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1EA_U+1F1EA",
+      "name": "flag: Estonia",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1EA_U+1F1ED",
+      "name": "flag: Western Sahara",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1EA_U+1F1FA",
+      "name": "flag: European Union",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1EB_U+1F1EE",
+      "name": "flag: Finland",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1EB_U+1F1F2",
+      "name": "flag: Micronesia",
+      "category": "Flags",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1EB_U+1F1F4",
+      "name": "flag: Faroe Islands",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1EB_U+1F1F7",
+      "name": "flag: France",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1EC_U+1F1E6",
+      "name": "flag: Gabon",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1EC_U+1F1EB",
+      "name": "flag: French Guiana",
+      "category": "Flags",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1EC_U+1F1ED",
+      "name": "flag: Ghana",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1EC_U+1F1F1",
+      "name": "flag: Greenland",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1EC_U+1F1F3",
+      "name": "flag: Guinea",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1EC_U+1F1F7",
+      "name": "flag: Greece",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1EC_U+1F1FC",
+      "name": "flag: Guinea-Bissau",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1EC_U+1F1FE",
+      "name": "flag: Guyana",
+      "category": "Flags",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1ED_U+1F1F3",
+      "name": "flag: Honduras",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1ED_U+1F1FA",
+      "name": "flag: Hungary",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1EE_U+1F1E8",
+      "name": "flag: Canary Islands",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1EE_U+1F1E9",
+      "name": "flag: Indonesia",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1EE_U+1F1EA",
+      "name": "flag: Ireland",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1EE_U+1F1F8",
+      "name": "flag: Iceland",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1EE_U+1F1F9",
+      "name": "flag: Italy",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1EF_U+1F1F2",
+      "name": "flag: Jamaica",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1EF_U+1F1F4",
+      "name": "flag: Jordan",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1EF_U+1F1F5",
+      "name": "flag: Japan",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F0_U+1F1F7",
+      "name": "flag: South Korea",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F0_U+1F1FC",
+      "name": "flag: Kuwait",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F1_U+1F1FA",
+      "name": "flag: Luxembourg",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1F1_U+1F1FB",
+      "name": "flag: Latvia",
+      "category": "Flags",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F1_U+1F1FE",
+      "name": "flag: Libya",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1E8",
+      "name": "flag: Monaco",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1EB",
+      "name": "flag: St. Martin",
+      "category": "Flags",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1EC",
+      "name": "flag: Madagascar",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1ED",
+      "name": "flag: Marshall Islands",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1F1",
+      "name": "flag: Mali",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1F2",
+      "name": "flag: Myanmar (Burma)",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1F3",
+      "name": "flag: Mongolia",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1F7",
+      "name": "flag: Mauritania",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1F9",
+      "name": "flag: Malta",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1FB",
+      "name": "flag: Maldives",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F2_U+1F1FF",
+      "name": "flag: Mozambique",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F3_U+1F1EB",
+      "name": "flag: Norfolk Island",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F3_U+1F1EC",
+      "name": "flag: Nigeria",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F3_U+1F1F1",
+      "name": "flag: Netherlands",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F3_U+1F1F5",
+      "name": "flag: Nepal",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F4_U+1F1F2",
+      "name": "flag: Oman",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F5_U+1F1EA",
+      "name": "flag: Peru",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F5_U+1F1ED",
+      "name": "flag: Philippines",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F5_U+1F1F1",
+      "name": "flag: Poland",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F5_U+1F1F8",
+      "name": "flag: Palestinian Territories",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F5_U+1F1FC",
+      "name": "flag: Palau",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1F5_U+1F1FE",
+      "name": "flag: Paraguay",
+      "category": "Flags",
+      "response": "C: flag: Paraguay",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F7_U+1F1EA",
+      "name": "flag: Réunion",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F7_U+1F1F4",
+      "name": "flag: Romania",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1F7_U+1F1FA",
+      "name": "flag: Russia",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F8_U+1F1E8",
+      "name": "flag: Seychelles",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F8_U+1F1E9",
+      "name": "flag: Sudan",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1F8_U+1F1EA",
+      "name": "flag: Sweden",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F8_U+1F1F1",
+      "name": "flag: Sierra Leone",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F8_U+1F1F3",
+      "name": "flag: Senegal",
+      "category": "Flags",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1F8_U+1F1F4",
+      "name": "flag: Somalia",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F8_U+1F1F7",
+      "name": "flag: Suriname",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F8_U+1F1F8",
+      "name": "flag: South Sudan",
+      "category": "Flags",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F8_U+1F1F9",
+      "name": "flag: São Tomé &amp; Príncipe",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F8_U+1F1FE",
+      "name": "flag: Syria",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F9_U+1F1F1",
+      "name": "flag: Timor-Leste",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F9_U+1F1F4",
+      "name": "flag: Tonga",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1F9_U+1F1F7",
+      "name": "flag: Turkey",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1F9_U+1F1F9",
+      "name": "flag: Trinidad &amp; Tobago",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F1F9_U+1F1FF",
+      "name": "flag: Tanzania",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1FA_U+1F1E6",
+      "name": "flag: Ukraine",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1FA_U+1F1EC",
+      "name": "flag: Uganda",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1FB_U+1F1F3",
+      "name": "flag: Vietnam",
+      "category": "Flags",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1FC_U+1F1F8",
+      "name": "flag: Samoa",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1FE_U+1F1EA",
+      "name": "flag: Yemen",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F1FF_U+1F1E6",
+      "name": "flag: South Africa",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F1FF_U+1F1F2",
+      "name": "flag: Zambia",
+      "category": "Flags",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F1FF_U+1F1FC",
+      "name": "flag: Zimbabwe",
+      "category": "Flags",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F300",
+      "name": "cyclone",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F302",
+      "name": "closed umbrella",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F305",
+      "name": "sunrise",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F306",
+      "name": "cityscape at dusk",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F308",
+      "name": "rainbow",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F309",
+      "name": "bridge at night",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F30A",
+      "name": "water wave",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F30B",
+      "name": "volcano",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F30D",
+      "name": "globe showing Europe-Africa",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F30E",
+      "name": "globe showing Americas",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F30F",
+      "name": "globe showing Asia-Australia",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F310",
+      "name": "globe with meridians",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F311",
+      "name": "new moon",
+      "category": "Travel & Places",
+      "response": "B: new moon",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F312",
+      "name": "waxing crescent moon",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F313",
+      "name": "first quarter moon",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F314",
+      "name": "waxing gibbous moon",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F315",
+      "name": "full moon",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F316",
+      "name": "waning gibbous moon",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F317",
+      "name": "last quarter moon",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F318",
+      "name": "waning crescent moon",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F319",
+      "name": "crescent moon",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F31A",
+      "name": "new moon face",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F31B",
+      "name": "first quarter moon face",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F31C",
+      "name": "last quarter moon face",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F31D",
+      "name": "full moon face",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F31E",
+      "name": "sun with face",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F31F",
+      "name": "glowing star",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F320",
+      "name": "shooting star",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F321",
+      "name": "thermometer",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F324",
+      "name": "sun behind small cloud",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F325",
+      "name": "sun behind large cloud",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F326",
+      "name": "sun behind rain cloud",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F327",
+      "name": "cloud with rain",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F328",
+      "name": "cloud with snow",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F329",
+      "name": "cloud with lightning",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F32A",
+      "name": "tornado",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F32C",
+      "name": "wind face",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F32E",
+      "name": "taco",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F330",
+      "name": "chestnut",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F331",
+      "name": "seedling",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F332",
+      "name": "evergreen tree",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F333",
+      "name": "deciduous tree",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F334",
+      "name": "palm tree",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F335",
+      "name": "cactus",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F336",
+      "name": "hot pepper",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F337",
+      "name": "tulip",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F339",
+      "name": "rose",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F33A",
+      "name": "hibiscus",
+      "category": "Animals & Nature",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F33B",
+      "name": "sunflower",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F33C",
+      "name": "blossom",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F33E",
+      "name": "sheaf of rice",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F33F",
+      "name": "herb",
+      "category": "Animals & Nature",
+      "response": "C: cactus",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F340",
+      "name": "four leaf clover",
+      "category": "Animals & Nature",
+      "response": "C: fox",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F341",
+      "name": "maple leaf",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F342",
+      "name": "fallen leaf",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F343",
+      "name": "leaf fluttering in wind",
+      "category": "Animals & Nature",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F344",
+      "name": "mushroom",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F345",
+      "name": "tomato",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F346",
+      "name": "eggplant",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F348",
+      "name": "melon",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F349",
+      "name": "watermelon",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F34A",
+      "name": "tangerine",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F34B",
+      "name": "lemon",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F34C",
+      "name": "banana",
+      "category": "Food & Drink",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F34D",
+      "name": "pineapple",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F34E",
+      "name": "red apple",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F34F",
+      "name": "green apple",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F350",
+      "name": "pear",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F351",
+      "name": "peach",
+      "category": "Food & Drink",
+      "response": "A: peach",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F352",
+      "name": "cherries",
+      "category": "Food & Drink",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F353",
+      "name": "strawberry",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F354",
+      "name": "hamburger",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F355",
+      "name": "pizza",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F356",
+      "name": "meat on bone",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F357",
+      "name": "poultry leg",
+      "category": "Food & Drink",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F358",
+      "name": "rice cracker",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F359",
+      "name": "rice ball",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F35A",
+      "name": "cooked rice",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F35B",
+      "name": "curry rice",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F35C",
+      "name": "steaming bowl",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F35D",
+      "name": "spaghetti",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F35E",
+      "name": "bread",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F35F",
+      "name": "french fries",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F360",
+      "name": "roasted sweet potato",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F361",
+      "name": "dango",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F362",
+      "name": "oden",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F363",
+      "name": "sushi",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F364",
+      "name": "fried shrimp",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F366",
+      "name": "soft ice cream",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F368",
+      "name": "ice cream",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F369",
+      "name": "doughnut",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F36A",
+      "name": "cookie",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F36B",
+      "name": "chocolate bar",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F36C",
+      "name": "candy",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F36D",
+      "name": "lollipop",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F36E",
+      "name": "custard",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F370",
+      "name": "shortcake",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F371",
+      "name": "bento box",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F372",
+      "name": "pot of food",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F373",
+      "name": "cooking",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F374",
+      "name": "fork and knife",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F376",
+      "name": "sake",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F377",
+      "name": "wine glass",
+      "category": "Food & Drink",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F378",
+      "name": "cocktail glass",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F379",
+      "name": "tropical drink",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F37A",
+      "name": "beer mug",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F37C",
+      "name": "baby bottle",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F37F",
+      "name": "popcorn",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F380",
+      "name": "ribbon",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F381",
+      "name": "wrapped gift",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F383",
+      "name": "jack-o-lantern",
+      "category": "Activities",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F384",
+      "name": "Christmas tree",
+      "category": "Activities",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F385",
+      "name": "Santa Claus",
+      "category": "People & Body",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F387",
+      "name": "sparkler",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F388",
+      "name": "balloon",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F389",
+      "name": "party popper",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F38A",
+      "name": "confetti ball",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F38B",
+      "name": "tanabata tree",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F38C",
+      "name": "crossed flags",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F393",
+      "name": "graduation cap",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F396",
+      "name": "military medal",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F397",
+      "name": "reminder ribbon",
+      "category": "Activities",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F39E",
+      "name": "film frames",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3A0",
+      "name": "carousel horse",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3A2",
+      "name": "roller coaster",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3A3",
+      "name": "fishing pole",
+      "category": "Activities",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3A5",
+      "name": "movie camera",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3A6",
+      "name": "cinema",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3A7",
+      "name": "headphone",
+      "category": "Objects",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3A8",
+      "name": "artist palette",
+      "category": "Activities",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3A9",
+      "name": "top hat",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3AA",
+      "name": "circus tent",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3AB",
+      "name": "ticket",
+      "category": "Activities",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3AC",
+      "name": "clapper board",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3AF",
+      "name": "bullseye",
+      "category": "Activities",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3B0",
+      "name": "slot machine",
+      "category": "Activities",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3B1",
+      "name": "pool 8 ball",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3B2",
+      "name": "game die",
+      "category": "Activities",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3B3",
+      "name": "bowling",
+      "category": "Activities",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3B5",
+      "name": "musical note",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3B6",
+      "name": "musical notes",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3B7",
+      "name": "saxophone",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3B8",
+      "name": "guitar",
+      "category": "Objects",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3B9",
+      "name": "musical keyboard",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3BA",
+      "name": "trumpet",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3BB",
+      "name": "violin",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3BC",
+      "name": "musical score",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3BD",
+      "name": "running shirt",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3BE",
+      "name": "tennis",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3BF",
+      "name": "skis",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3C1",
+      "name": "chequered flag",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3C2",
+      "name": "snowboarder",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3C3",
+      "name": "person running",
+      "category": "People & Body",
+      "response": "D",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3C4",
+      "name": "person surfing",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3C5",
+      "name": "sports medal",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3C6",
+      "name": "trophy",
+      "category": "Activities",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3C7",
+      "name": "horse racing",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3CA",
+      "name": "person swimming",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3CB",
+      "name": "person lifting weights",
+      "category": "People & Body",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3CE",
+      "name": "racing car",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3D0",
+      "name": "volleyball",
+      "category": "Activities",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3D1",
+      "name": "field hockey",
+      "category": "Activities",
+      "response": "D",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3D2",
+      "name": "ice hockey",
+      "category": "Activities",
+      "response": "C: firecracker",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3D3",
+      "name": "ping pong",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3D4",
+      "name": "snow-capped mountain",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3D5",
+      "name": "camping",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3D8",
+      "name": "houses",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3D9",
+      "name": "cityscape",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3DD",
+      "name": "desert island",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3DF",
+      "name": "stadium",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3E0",
+      "name": "house",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3E1",
+      "name": "house with garden",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3E5",
+      "name": "hospital",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3E7",
+      "name": "ATM sign",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3E8",
+      "name": "hotel",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3E9",
+      "name": "love hotel",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3EB",
+      "name": "school",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F3EE",
+      "name": "red paper lantern",
+      "category": "Objects",
+      "response": "C: red paper lantern",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3EF",
+      "name": "Japanese castle",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3F0",
+      "name": "castle",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3F3",
+      "name": "white flag",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3F3_U+FE0F_U+200D_U+1F308",
+      "name": "rainbow flag",
+      "category": "Flags",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F3F4",
+      "name": "black flag",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3F4_U+200D_U+2620_U+FE0F",
+      "name": "pirate flag",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3F4_U+E0067_U+E0062_U+E0065_U+E006E_U+E0067_U+E007F",
+      "name": "flag: England",
+      "category": "Flags",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3F4_U+E0067_U+E0062_U+E0073_U+E0063_U+E0074_U+E007F",
+      "name": "flag: Scotland",
+      "category": "Flags",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3F4_U+E0067_U+E0062_U+E0077_U+E006C_U+E0073_U+E007F",
+      "name": "flag: Wales",
+      "category": "Flags",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3F5",
+      "name": "rosette",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3F8",
+      "name": "badminton",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F3F9",
+      "name": "bow and arrow",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F3FA",
+      "name": "amphora",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F400",
+      "name": "rat",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F401",
+      "name": "mouse",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F402",
+      "name": "ox",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F404",
+      "name": "cow",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F405",
+      "name": "tiger",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F406",
+      "name": "leopard",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F407",
+      "name": "rabbit",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F408",
+      "name": "cat",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F409",
+      "name": "dragon",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F40A",
+      "name": "crocodile",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F40B",
+      "name": "whale",
+      "category": "Animals & Nature",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F40C",
+      "name": "snail",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F40D",
+      "name": "snake",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F40E",
+      "name": "horse",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F40F",
+      "name": "ram",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F411",
+      "name": "ewe",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F412",
+      "name": "monkey",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F413",
+      "name": "rooster",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F414",
+      "name": "chicken",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F415",
+      "name": "dog",
+      "category": "Animals & Nature",
+      "response": "B: poodle",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F417",
+      "name": "boar",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F418",
+      "name": "elephant",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F419",
+      "name": "octopus",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F41A",
+      "name": "spiral shell",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F41B",
+      "name": "bug",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F41C",
+      "name": "ant",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F41D",
+      "name": "honeybee",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F41E",
+      "name": "lady beetle",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F41F",
+      "name": "fish",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F420",
+      "name": "tropical fish",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F421",
+      "name": "blowfish",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F422",
+      "name": "turtle",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F423",
+      "name": "hatching chick",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F424",
+      "name": "baby chick",
+      "category": "Animals & Nature",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F425",
+      "name": "front-facing baby chick",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F427",
+      "name": "penguin",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F428",
+      "name": "koala",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F429",
+      "name": "poodle",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F42A",
+      "name": "camel",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F42B",
+      "name": "two-hump camel",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F42C",
+      "name": "dolphin",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F42D",
+      "name": "mouse face",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F42F",
+      "name": "tiger face",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F431",
+      "name": "cat face",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F432",
+      "name": "dragon face",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F433",
+      "name": "spouting whale",
+      "category": "Animals & Nature",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F434",
+      "name": "horse face",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F435",
+      "name": "monkey face",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F436",
+      "name": "dog face",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F438",
+      "name": "frog",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F439",
+      "name": "hamster",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F43A",
+      "name": "wolf",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F43B",
+      "name": "bear",
+      "category": "Animals & Nature",
+      "response": "D",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F43B_U+200D_U+2744_U+FE0F",
+      "name": "polar bear",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F43C",
+      "name": "panda",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F43D",
+      "name": "pig nose",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F43E",
+      "name": "paw prints",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F43F",
+      "name": "chipmunk",
+      "category": "Animals & Nature",
+      "response": "D",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F440",
+      "name": "eyes",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F441",
+      "name": "eye",
+      "category": "People & Body",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F441_U+FE0F_U+200D_U+1F5E8_U+FE0F",
+      "name": "eye in speech bubble",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F442",
+      "name": "ear",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F443",
+      "name": "nose",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F444",
+      "name": "mouth",
+      "category": "People & Body",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F445",
+      "name": "tongue",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F446",
+      "name": "backhand index pointing up",
+      "category": "People & Body",
+      "response": "D",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F447",
+      "name": "backhand index pointing down",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F448",
+      "name": "backhand index pointing left",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F449",
+      "name": "backhand index pointing right",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F44A",
+      "name": "oncoming fist",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F44B",
+      "name": "waving hand",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F44C",
+      "name": "OK hand",
+      "category": "People & Body",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F44D",
+      "name": "thumbs up",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F44E",
+      "name": "thumbs down",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F44F",
+      "name": "clapping hands",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F451",
+      "name": "crown",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F453",
+      "name": "glasses",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F455",
+      "name": "t-shirt",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F456",
+      "name": "jeans",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F457",
+      "name": "dress",
+      "category": "Objects",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F458",
+      "name": "kimono",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F459",
+      "name": "bikini",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F45B",
+      "name": "purse",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F45D",
+      "name": "clutch bag",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F45F",
+      "name": "running shoe",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F460",
+      "name": "high-heeled shoe",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F463",
+      "name": "footprints",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F473",
+      "name": "person wearing turban",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F47A",
+      "name": "goblin",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F47B",
+      "name": "ghost",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F47C",
+      "name": "baby angel",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F47D",
+      "name": "alien",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F47E",
+      "name": "alien monster",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F47F",
+      "name": "angry face with horns",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F481",
+      "name": "person tipping hand",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F482",
+      "name": "guard",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F488",
+      "name": "barber pole",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F489",
+      "name": "syringe",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F48A",
+      "name": "pill",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F48B",
+      "name": "kiss mark",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F48C",
+      "name": "love letter",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F48D",
+      "name": "ring",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F48E",
+      "name": "gem stone",
+      "category": "Objects",
+      "response": "B: gem stone",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F493",
+      "name": "beating heart",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F494",
+      "name": "broken heart",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F495",
+      "name": "two hearts",
+      "category": "Smileys & Emotion",
+      "response": "D",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F496",
+      "name": "sparkling heart",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F497",
+      "name": "growing heart",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F498",
+      "name": "heart with arrow",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F499",
+      "name": "blue heart",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F49A",
+      "name": "green heart",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F49B",
+      "name": "yellow heart",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F49C",
+      "name": "purple heart",
+      "category": "Smileys & Emotion",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F49D",
+      "name": "heart with ribbon",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F49E",
+      "name": "revolving hearts",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F49F",
+      "name": "heart decoration",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4A0",
+      "name": "diamond with a dot",
+      "category": "Symbols",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4A1",
+      "name": "light bulb",
+      "category": "Objects",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4A2",
+      "name": "anger symbol",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4A3",
+      "name": "bomb",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4A4",
+      "name": "zzz",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4A5",
+      "name": "collision",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4A6",
+      "name": "sweat droplets",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4A7",
+      "name": "droplet",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4A8",
+      "name": "dashing away",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4A9",
+      "name": "pile of poo",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4AA",
+      "name": "flexed biceps",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4AB",
+      "name": "dizzy",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4AC",
+      "name": "speech balloon",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4AD",
+      "name": "thought balloon",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4AF",
+      "name": "hundred points",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4B0",
+      "name": "money bag",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4B2",
+      "name": "heavy dollar sign",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4B3",
+      "name": "credit card",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4B5",
+      "name": "dollar banknote",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4B6",
+      "name": "euro banknote",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4B7",
+      "name": "pound banknote",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4BB",
+      "name": "laptop",
+      "category": "Objects",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4BC",
+      "name": "briefcase",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4BD",
+      "name": "computer disk",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4BE",
+      "name": "floppy disk",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4C0",
+      "name": "dvd",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4C5",
+      "name": "calendar",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4C7",
+      "name": "card index",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4C8",
+      "name": "chart increasing",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4C9",
+      "name": "chart decreasing",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4CA",
+      "name": "bar chart",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4CC",
+      "name": "pushpin",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4CD",
+      "name": "round pushpin",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4D0",
+      "name": "triangular ruler",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4D1",
+      "name": "bookmark tabs",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4D7",
+      "name": "green book",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4D8",
+      "name": "blue book",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4D9",
+      "name": "orange book",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4DC",
+      "name": "scroll",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4DE",
+      "name": "telephone receiver",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4E1",
+      "name": "satellite antenna",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4E9",
+      "name": "envelope with arrow",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4EA",
+      "name": "closed mailbox with lowered flag",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4EB",
+      "name": "closed mailbox with raised flag",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4EC",
+      "name": "open mailbox with raised flag",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4ED",
+      "name": "open mailbox with lowered flag",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F4EE",
+      "name": "postbox",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4EF",
+      "name": "postal horn",
+      "category": "Objects",
+      "response": "C: postal horn",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4F7",
+      "name": "camera",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F4F8",
+      "name": "camera with flash",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4F9",
+      "name": "video camera",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4FA",
+      "name": "television",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4FB",
+      "name": "radio",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F4FC",
+      "name": "videocassette",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F4FD",
+      "name": "film projector",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F504",
+      "name": "counterclockwise arrows button",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F507",
+      "name": "muted speaker",
+      "category": "Objects",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F508",
+      "name": "speaker low volume",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F509",
+      "name": "speaker medium volume",
+      "category": "Objects",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F50A",
+      "name": "speaker high volume",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F50B",
+      "name": "battery",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F50C",
+      "name": "electric plug",
+      "category": "Objects",
+      "response": "B: musical note",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F50D",
+      "name": "magnifying glass tilted left",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F50E",
+      "name": "magnifying glass tilted right",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F510",
+      "name": "locked with key",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F511",
+      "name": "key",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F512",
+      "name": "locked",
+      "category": "Objects",
+      "response": "D",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F513",
+      "name": "unlocked",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F514",
+      "name": "bell",
+      "category": "Objects",
+      "response": "B: magnifying glass tilted right",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F515",
+      "name": "bell with slash",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F516",
+      "name": "bookmark",
+      "category": "Objects",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F517",
+      "name": "link",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F519",
+      "name": "BACK arrow",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F51A",
+      "name": "END arrow",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F51B",
+      "name": "ON! arrow",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F51C",
+      "name": "SOON arrow",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F51D",
+      "name": "TOP arrow",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F51F",
+      "name": "keycap: 10",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F525",
+      "name": "fire",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F526",
+      "name": "flashlight",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F527",
+      "name": "wrench",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F52A",
+      "name": "kitchen knife",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F52B",
+      "name": "water pistol",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F52C",
+      "name": "microscope",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F52D",
+      "name": "telescope",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F52E",
+      "name": "crystal ball",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F531",
+      "name": "trident emblem",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F534",
+      "name": "red circle",
+      "category": "Symbols",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F536",
+      "name": "large orange diamond",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F538",
+      "name": "small orange diamond",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F53A",
+      "name": "red triangle pointed up",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F53B",
+      "name": "red triangle pointed down",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F53C",
+      "name": "upwards button",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F53D",
+      "name": "downwards button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F54A",
+      "name": "dove",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F54B",
+      "name": "kaaba",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F54E",
+      "name": "menorah",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F56F",
+      "name": "candle",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F570",
+      "name": "mantelpiece clock",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F573",
+      "name": "hole",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F574",
+      "name": "person in suit levitating",
+      "category": "People & Body",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F575",
+      "name": "detective",
+      "category": "People & Body",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F576",
+      "name": "sunglasses",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F577",
+      "name": "spider",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F578",
+      "name": "spider web",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F590",
+      "name": "hand with fingers splayed",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F595",
+      "name": "middle finger",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F596",
+      "name": "vulcan salute",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F5A4",
+      "name": "black heart",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F5BC",
+      "name": "framed picture",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F5D1",
+      "name": "wastebasket",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F5D3",
+      "name": "spiral calendar",
+      "category": "Objects",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F5DC",
+      "name": "clamp",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F5DD",
+      "name": "old key",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F5DE",
+      "name": "rolled-up newspaper",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F5E1",
+      "name": "dagger",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F5E3",
+      "name": "speaking head",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F5E8",
+      "name": "left speech bubble",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F5EF",
+      "name": "right anger bubble",
+      "category": "Smileys & Emotion",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F5F3",
+      "name": "ballot box with ballot",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F5FA",
+      "name": "world map",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F5FB",
+      "name": "mount fuji",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F5FC",
+      "name": "Tokyo tower",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F600",
+      "name": "grinning face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F602",
+      "name": "face with tears of joy",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F605",
+      "name": "grinning face with sweat",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F608",
+      "name": "smiling face with horns",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F609",
+      "name": "winking face",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F60C",
+      "name": "relieved face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F60D",
+      "name": "smiling face with heart-eyes",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F60E",
+      "name": "smiling face with sunglasses",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F60F",
+      "name": "smirking face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F610",
+      "name": "neutral face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F613",
+      "name": "downcast face with sweat",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F616",
+      "name": "confounded face",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F617",
+      "name": "kissing face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F618",
+      "name": "face blowing a kiss",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F61B",
+      "name": "face with tongue",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F61C",
+      "name": "winking face with tongue",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F61D",
+      "name": "squinting face with tongue",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F61E",
+      "name": "disappointed face",
+      "category": "Smileys & Emotion",
+      "response": "D",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F620",
+      "name": "angry face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F621",
+      "name": "pouting face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F622",
+      "name": "crying face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F624",
+      "name": "face with steam from nose",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F626",
+      "name": "frowning face with open mouth",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F62D",
+      "name": "loudly crying face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F62E",
+      "name": "face with open mouth",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F62E_U+200D_U+1F4A8",
+      "name": "face exhaling",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F62F",
+      "name": "hushed face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F631",
+      "name": "face screaming in fear",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F632",
+      "name": "astonished face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F633",
+      "name": "flushed face",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F634",
+      "name": "sleeping face",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F635",
+      "name": "face with crossed-out eyes",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F635_U+200D_U+1F4AB",
+      "name": "face with spiral eyes",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F636",
+      "name": "face without mouth",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F636_U+200D_U+1F32B_U+FE0F",
+      "name": "face in clouds",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F637",
+      "name": "face with medical mask",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F643",
+      "name": "upside-down face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F644",
+      "name": "face with rolling eyes",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F646",
+      "name": "person gesturing OK",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F647",
+      "name": "person bowing",
+      "category": "People & Body",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F64B",
+      "name": "person raising hand",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F64C",
+      "name": "raising hands",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F680",
+      "name": "rocket",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F681",
+      "name": "helicopter",
+      "category": "Travel & Places",
+      "response": "C: racing car",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F682",
+      "name": "locomotive",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F683",
+      "name": "railway car",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F685",
+      "name": "bullet train",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F687",
+      "name": "metro",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F689",
+      "name": "station",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F68A",
+      "name": "tram",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F68C",
+      "name": "bus",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F68D",
+      "name": "oncoming bus",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F68E",
+      "name": "trolleybus",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F690",
+      "name": "minibus",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F691",
+      "name": "ambulance",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F692",
+      "name": "fire engine",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F693",
+      "name": "police car",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F694",
+      "name": "oncoming police car",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F695",
+      "name": "taxi",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F696",
+      "name": "oncoming taxi",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F697",
+      "name": "automobile",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F698",
+      "name": "oncoming automobile",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F699",
+      "name": "sport utility vehicle",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F69A",
+      "name": "delivery truck",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F69B",
+      "name": "articulated lorry",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F69C",
+      "name": "tractor",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6A0",
+      "name": "mountain cableway",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6A1",
+      "name": "aerial tramway",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6A2",
+      "name": "ship",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6A4",
+      "name": "speedboat",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F6A5",
+      "name": "horizontal traffic light",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6A6",
+      "name": "vertical traffic light",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6A7",
+      "name": "construction",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F6A9",
+      "name": "triangular flag",
+      "category": "Flags",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F6AA",
+      "name": "door",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6AB",
+      "name": "prohibited",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F6AC",
+      "name": "cigarette",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6AD",
+      "name": "no smoking",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6AE",
+      "name": "litter in bin sign",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6B0",
+      "name": "potable water",
+      "category": "Symbols",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6B1",
+      "name": "non-potable water",
+      "category": "Symbols",
+      "response": "D",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6B2",
+      "name": "bicycle",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6B3",
+      "name": "no bicycles",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F6B4",
+      "name": "person biking",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6B6",
+      "name": "person walking",
+      "category": "People & Body",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6B7",
+      "name": "no pedestrians",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6B8",
+      "name": "children crossing",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6B9",
+      "name": "men’s room",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6BA",
+      "name": "women’s room",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6BB",
+      "name": "restroom",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6BC",
+      "name": "baby symbol",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6BD",
+      "name": "toilet",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6BE",
+      "name": "water closet",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6BF",
+      "name": "shower",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6C0",
+      "name": "person taking bath",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6C1",
+      "name": "bathtub",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6CB",
+      "name": "couch and lamp",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6CC",
+      "name": "person in bed",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6CD",
+      "name": "shopping bags",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6CE",
+      "name": "bellhop bell",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F6CF",
+      "name": "bed",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6D1",
+      "name": "stop sign",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6D2",
+      "name": "shopping cart",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6D6",
+      "name": "hut",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F6DD",
+      "name": "playground slide",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6DE",
+      "name": "wheel",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6DF",
+      "name": "ring buoy",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6E4",
+      "name": "railway track",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F6E5",
+      "name": "motor boat",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F6E9",
+      "name": "small airplane",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6EB",
+      "name": "airplane departure",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6EC",
+      "name": "airplane arrival",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6F0",
+      "name": "satellite",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6F3",
+      "name": "passenger ship",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6F4",
+      "name": "kick scooter",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6F5",
+      "name": "motor scooter",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6F6",
+      "name": "canoe",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F6F7",
+      "name": "sled",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6F8",
+      "name": "flying saucer",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F6F9",
+      "name": "skateboard",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6FB",
+      "name": "pickup truck",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F6FC",
+      "name": "roller skate",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F7E0",
+      "name": "orange circle",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F7E2",
+      "name": "green circle",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F7E3",
+      "name": "purple circle",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F7E5",
+      "name": "red square",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F7E7",
+      "name": "orange square",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F7E9",
+      "name": "green square",
+      "category": "Symbols",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F7EA",
+      "name": "purple square",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F7F0",
+      "name": "heavy equals sign",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F90C",
+      "name": "pinched fingers",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F90D",
+      "name": "white heart",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F90E",
+      "name": "brown heart",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F90F",
+      "name": "pinching hand",
+      "category": "People & Body",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F910",
+      "name": "zipper-mouth face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F911",
+      "name": "money-mouth face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F912",
+      "name": "face with thermometer",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F913",
+      "name": "nerd face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F914",
+      "name": "thinking face",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F915",
+      "name": "face with head-bandage",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F916",
+      "name": "robot",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F917",
+      "name": "smiling face with open hands",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F919",
+      "name": "call me hand",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F91A",
+      "name": "raised back of hand",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F91B",
+      "name": "left-facing fist",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F91C",
+      "name": "right-facing fist",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F920",
+      "name": "cowboy hat face",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F922",
+      "name": "nauseated face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F923",
+      "name": "rolling on the floor laughing",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F924",
+      "name": "drooling face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F926",
+      "name": "person facepalming",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F927",
+      "name": "sneezing face",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F928",
+      "name": "face with raised eyebrow",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F929",
+      "name": "star-struck",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F92A",
+      "name": "zany face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F92B",
+      "name": "shushing face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F92D",
+      "name": "face with hand over mouth",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F92E",
+      "name": "face vomiting",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F92F",
+      "name": "exploding head",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F933",
+      "name": "selfie",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F938",
+      "name": "person cartwheeling",
+      "category": "People & Body",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F93A",
+      "name": "person fencing",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F93D",
+      "name": "person playing water polo",
+      "category": "People & Body",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F93E",
+      "name": "person playing handball",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F93F",
+      "name": "diving mask",
+      "category": "Activities",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F940",
+      "name": "wilted flower",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F942",
+      "name": "clinking glasses",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F944",
+      "name": "spoon",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F947",
+      "name": "1st place medal",
+      "category": "Activities",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F948",
+      "name": "2nd place medal",
+      "category": "Activities",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F949",
+      "name": "3rd place medal",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F94A",
+      "name": "boxing glove",
+      "category": "Activities",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F94B",
+      "name": "martial arts uniform",
+      "category": "Activities",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F94C",
+      "name": "curling stone",
+      "category": "Activities",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F94D",
+      "name": "lacrosse",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F94E",
+      "name": "softball",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F950",
+      "name": "croissant",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F953",
+      "name": "bacon",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F954",
+      "name": "potato",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F955",
+      "name": "carrot",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F956",
+      "name": "baguette bread",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F957",
+      "name": "green salad",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F95A",
+      "name": "egg",
+      "category": "Food & Drink",
+      "response": "D",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F95D",
+      "name": "kiwi fruit",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F963",
+      "name": "bowl with spoon",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F965",
+      "name": "coconut",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F968",
+      "name": "pretzel",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F969",
+      "name": "cut of meat",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F96D",
+      "name": "mango",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F970",
+      "name": "smiling face with hearts",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F972",
+      "name": "smiling face with tear",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F973",
+      "name": "partying face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F975",
+      "name": "hot face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F977",
+      "name": "ninja",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F978",
+      "name": "disguised face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F979",
+      "name": "face holding back tears",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F97A",
+      "name": "pleading face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F97C",
+      "name": "lab coat",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F97D",
+      "name": "goggles",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F97E",
+      "name": "hiking boot",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F97F",
+      "name": "flat shoe",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F980",
+      "name": "crab",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F983",
+      "name": "turkey",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F984",
+      "name": "unicorn",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F985",
+      "name": "eagle",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F986",
+      "name": "duck",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F987",
+      "name": "bat",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F988",
+      "name": "shark",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F989",
+      "name": "owl",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F98A",
+      "name": "fox",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F98B",
+      "name": "butterfly",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F98C",
+      "name": "deer",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F98E",
+      "name": "lizard",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F990",
+      "name": "shrimp",
+      "category": "Food & Drink",
+      "response": "D",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F991",
+      "name": "squid",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F992",
+      "name": "giraffe",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F993",
+      "name": "zebra",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F994",
+      "name": "hedgehog",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F995",
+      "name": "sauropod",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F996",
+      "name": "T-Rex",
+      "category": "Animals & Nature",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F997",
+      "name": "cricket",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F999",
+      "name": "llama",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F99A",
+      "name": "peacock",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F99C",
+      "name": "parrot",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F99D",
+      "name": "raccoon",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F99E",
+      "name": "lobster",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9A2",
+      "name": "swan",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9A3",
+      "name": "mammoth",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9A4",
+      "name": "dodo",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9A5",
+      "name": "sloth",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9A8",
+      "name": "skunk",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F9A9",
+      "name": "flamingo",
+      "category": "Animals & Nature",
+      "response": "C: cockroach",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9B4",
+      "name": "bone",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9B5",
+      "name": "leg",
+      "category": "People & Body",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F9B6",
+      "name": "foot",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9B7",
+      "name": "tooth",
+      "category": "People & Body",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9B8",
+      "name": "superhero",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9C0",
+      "name": "cheese wedge",
+      "category": "Food & Drink",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9C1",
+      "name": "cupcake",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F9C3",
+      "name": "beverage box",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9C9",
+      "name": "mate",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9CC",
+      "name": "troll",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9CE",
+      "name": "person kneeling",
+      "category": "People & Body",
+      "response": "C: student",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9D0",
+      "name": "face with monocle",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F9D1",
+      "name": "person",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F33E",
+      "name": "farmer",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F373",
+      "name": "cook",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F393",
+      "name": "student",
+      "category": "People & Body",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F4BC",
+      "name": "office worker",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F527",
+      "name": "mechanic",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F52C",
+      "name": "scientist",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F692",
+      "name": "firefighter",
+      "category": "People & Body",
+      "response": "B: leg",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F9AF",
+      "name": "person with white cane",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F9B0",
+      "name": "person: red hair",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F9B2",
+      "name": "person: bald",
+      "category": "People & Body",
+      "response": "C: ear",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F9B3",
+      "name": "person: white hair",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+1F9BD",
+      "name": "person in manual wheelchair",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+2695_U+FE0F",
+      "name": "health worker",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1F9D1_U+200D_U+2696_U+FE0F",
+      "name": "judge",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9D4",
+      "name": "person: beard",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9D7",
+      "name": "person climbing",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9D9",
+      "name": "mage",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9DC_U+200D_U+2640_U+FE0F",
+      "name": "mermaid",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9E1",
+      "name": "orange heart",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9E8",
+      "name": "firecracker",
+      "category": "Activities",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9E9",
+      "name": "puzzle piece",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9EE",
+      "name": "abacus",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9F0",
+      "name": "toolbox",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1F9F2",
+      "name": "magnet",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9F8",
+      "name": "teddy bear",
+      "category": "Activities",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1F9F9",
+      "name": "broom",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9FA",
+      "name": "basket",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1F9FB",
+      "name": "roll of paper",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1FA70",
+      "name": "ballet shoes",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1FA78",
+      "name": "drop of blood",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FA7A",
+      "name": "stethoscope",
+      "category": "Objects",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FA81",
+      "name": "kite",
+      "category": "Activities",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FA84",
+      "name": "magic wand",
+      "category": "Activities",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FA85",
+      "name": "piñata",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FA91",
+      "name": "chair",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FA92",
+      "name": "razor",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FA93",
+      "name": "axe",
+      "category": "Objects",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1FA96",
+      "name": "military helmet",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FA98",
+      "name": "long drum",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FA9D",
+      "name": "hook",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FA9F",
+      "name": "window",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FAA0",
+      "name": "plunger",
+      "category": "Objects",
+      "response": "C: plunger",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAA1",
+      "name": "sewing needle",
+      "category": "Activities",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1FAA5",
+      "name": "toothbrush",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1FAA7",
+      "name": "placard",
+      "category": "Objects",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAB1",
+      "name": "worm",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1FAB2",
+      "name": "beetle",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAB3",
+      "name": "cockroach",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAB4",
+      "name": "potted plant",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+1FAB8",
+      "name": "coral",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FABA",
+      "name": "nest with eggs",
+      "category": "Animals & Nature",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FAC1",
+      "name": "lungs",
+      "category": "People & Body",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FAC4",
+      "name": "pregnant person",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FAC5",
+      "name": "person with crown",
+      "category": "People & Body",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FAD0",
+      "name": "blueberries",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FAD1",
+      "name": "bell pepper",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAD2",
+      "name": "olive",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAD4",
+      "name": "tamale",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAD6",
+      "name": "teapot",
+      "category": "Food & Drink",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FAE0",
+      "name": "melting face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAE2",
+      "name": "face with open eyes and hand over mouth",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAE3",
+      "name": "face with peeking eye",
+      "category": "Smileys & Emotion",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FAE4",
+      "name": "face with diagonal mouth",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FAE5",
+      "name": "dotted line face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAE7",
+      "name": "bubbles",
+      "category": "Objects",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FAF0",
+      "name": "hand with index finger and thumb crossed",
+      "category": "People & Body",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+1FAF1",
+      "name": "rightwards hand",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FAF2",
+      "name": "leftwards hand",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+1FAF3",
+      "name": "palm down hand",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FAF4",
+      "name": "palm up hand",
+      "category": "People & Body",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FAF5",
+      "name": "index pointing at the viewer",
+      "category": "People & Body",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+1FAF6",
+      "name": "heart hands",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+203C",
+      "name": "double exclamation mark",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2049",
+      "name": "exclamation question mark",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2139",
+      "name": "information",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2194",
+      "name": "left-right arrow",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2195",
+      "name": "up-down arrow",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2196",
+      "name": "up-left arrow",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2197",
+      "name": "up-right arrow",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2198",
+      "name": "down-right arrow",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2199",
+      "name": "down-left arrow",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+21A9",
+      "name": "right arrow curving left",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+21AA",
+      "name": "left arrow curving right",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+231A",
+      "name": "watch",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+231B",
+      "name": "hourglass done",
+      "category": "Travel & Places",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+23CF",
+      "name": "eject button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+23E9",
+      "name": "fast-forward button",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+23EA",
+      "name": "fast reverse button",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+23EB",
+      "name": "fast up button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+23EC",
+      "name": "fast down button",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+23ED",
+      "name": "next track button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+23EE",
+      "name": "last track button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+23EF",
+      "name": "play or pause button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+23F0",
+      "name": "alarm clock",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+23F1",
+      "name": "stopwatch",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+23F3",
+      "name": "hourglass not done",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+23F8",
+      "name": "pause button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+24C2",
+      "name": "circled M",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+25B6",
+      "name": "play button",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+25C0",
+      "name": "reverse button",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2600",
+      "name": "sun",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2601",
+      "name": "cloud",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2602",
+      "name": "umbrella",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2603",
+      "name": "snowman",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+260E",
+      "name": "telephone",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2614",
+      "name": "umbrella with rain drops",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2615",
+      "name": "hot beverage",
+      "category": "Food & Drink",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2618",
+      "name": "shamrock",
+      "category": "Animals & Nature",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+261D",
+      "name": "index pointing up",
+      "category": "People & Body",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2620",
+      "name": "skull and crossbones",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+262A",
+      "name": "star and crescent",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2639",
+      "name": "frowning face",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+263A",
+      "name": "smiling face",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2640",
+      "name": "female sign",
+      "category": "Symbols",
+      "response": "D",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2642",
+      "name": "male sign",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2648",
+      "name": "Aries",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2649",
+      "name": "Taurus",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+264A",
+      "name": "Gemini",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+264B",
+      "name": "Cancer",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+264C",
+      "name": "Leo",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+264D",
+      "name": "Virgo",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+264E",
+      "name": "Libra",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+264F",
+      "name": "Scorpio",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2650",
+      "name": "Sagittarius",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2651",
+      "name": "Capricorn",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2652",
+      "name": "Aquarius",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2653",
+      "name": "Pisces",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2660",
+      "name": "spade suit",
+      "category": "Activities",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2663",
+      "name": "club suit",
+      "category": "Activities",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2665",
+      "name": "heart suit",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2666",
+      "name": "diamond suit",
+      "category": "Activities",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+267B",
+      "name": "recycling symbol",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+267F",
+      "name": "wheelchair symbol",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2692",
+      "name": "hammer and pick",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2693",
+      "name": "anchor",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2694",
+      "name": "crossed swords",
+      "category": "Objects",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2696",
+      "name": "balance scale",
+      "category": "Objects",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+269C",
+      "name": "fleur-de-lis",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+26A0",
+      "name": "warning",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+26A1",
+      "name": "high voltage",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+26A7",
+      "name": "transgender symbol",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+26AA",
+      "name": "white circle",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+26AB",
+      "name": "black circle",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+26BD",
+      "name": "soccer ball",
+      "category": "Activities",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+26BE",
+      "name": "baseball",
+      "category": "Activities",
+      "response": "C: baseball",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+26C4",
+      "name": "snowman without snow",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+26C5",
+      "name": "sun behind cloud",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+26C8",
+      "name": "cloud with lightning and rain",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+26CE",
+      "name": "Ophiuchus",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+26CF",
+      "name": "pick",
+      "category": "Objects",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+26D1",
+      "name": "rescue worker’s helmet",
+      "category": "Objects",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+26D4",
+      "name": "no entry",
+      "category": "Symbols",
+      "response": "B: trident emblem",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+26E9",
+      "name": "shinto shrine",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+26EA",
+      "name": "church",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+26F0",
+      "name": "mountain",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+26F1",
+      "name": "umbrella on ground",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+26F3",
+      "name": "flag in hole",
+      "category": "Activities",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+26F4",
+      "name": "ferry",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+26F5",
+      "name": "sailboat",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+26F8",
+      "name": "ice skate",
+      "category": "Activities",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+26F9",
+      "name": "person bouncing ball",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+26FA",
+      "name": "tent",
+      "category": "Travel & Places",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2702",
+      "name": "scissors",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2705",
+      "name": "check mark button",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2708",
+      "name": "airplane",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+270A",
+      "name": "raised fist",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+270B",
+      "name": "raised hand",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+270C",
+      "name": "victory hand",
+      "category": "People & Body",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+270D",
+      "name": "writing hand",
+      "category": "People & Body",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+270F",
+      "name": "pencil",
+      "category": "Objects",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2714",
+      "name": "check mark",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2716",
+      "name": "multiply",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+271D",
+      "name": "latin cross",
+      "category": "Symbols",
+      "response": "D: latin cross",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2721",
+      "name": "star of David",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2728",
+      "name": "sparkles",
+      "category": "Activities",
+      "response": "C",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2733",
+      "name": "eight-spoked asterisk",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2734",
+      "name": "eight-pointed star",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2744",
+      "name": "snowflake",
+      "category": "Travel & Places",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2747",
+      "name": "sparkle",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+274C",
+      "name": "cross mark",
+      "category": "Symbols",
+      "response": "A",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+274E",
+      "name": "cross mark button",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2753",
+      "name": "red question mark",
+      "category": "Symbols",
+      "response": "C: red question mark",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2754",
+      "name": "white question mark",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2755",
+      "name": "white exclamation mark",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2757",
+      "name": "red exclamation mark",
+      "category": "Symbols",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2763",
+      "name": "heart exclamation",
+      "category": "Smileys & Emotion",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2764",
+      "name": "red heart",
+      "category": "Smileys & Emotion",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2764_U+FE0F_U+200D_U+1F525",
+      "name": "heart on fire",
+      "category": "Smileys & Emotion",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2764_U+FE0F_U+200D_U+1FA79",
+      "name": "mending heart",
+      "category": "Smileys & Emotion",
+      "response": "B",
+      "correct": false,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2795",
+      "name": "plus",
+      "category": "Symbols",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2796",
+      "name": "minus",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2797",
+      "name": "divide",
+      "category": "Symbols",
+      "response": "A",
+      "correct": true,
+      "target": "A"
+    },
+    {
+      "unicode": "U+27A1",
+      "name": "right arrow",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "B"
+    },
+    {
+      "unicode": "U+27B0",
+      "name": "curly loop",
+      "category": "Symbols",
+      "response": "D",
+      "correct": false,
+      "target": "C"
+    },
+    {
+      "unicode": "U+27BF",
+      "name": "double curly loop",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2934",
+      "name": "right arrow curving up",
+      "category": "Symbols",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2935",
+      "name": "right arrow curving down",
+      "category": "Symbols",
+      "response": "C",
+      "correct": true,
+      "target": "C"
+    },
+    {
+      "unicode": "U+2B05",
+      "name": "left arrow",
+      "category": "Symbols",
+      "response": "B",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2B06",
+      "name": "up arrow",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+2B07",
+      "name": "down arrow",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2B1B",
+      "name": "black large square",
+      "category": "Symbols",
+      "response": "B",
+      "correct": true,
+      "target": "B"
+    },
+    {
+      "unicode": "U+2B1C",
+      "name": "white large square",
+      "category": "Symbols",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2B50",
+      "name": "star",
+      "category": "Travel & Places",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+2B55",
+      "name": "hollow red circle",
+      "category": "Symbols",
+      "response": "D",
+      "correct": true,
+      "target": "D"
+    },
+    {
+      "unicode": "U+3030",
+      "name": "wavy dash",
+      "category": "Symbols",
+      "response": "C",
+      "correct": false,
+      "target": "A"
+    },
+    {
+      "unicode": "U+303D",
+      "name": "part alternation mark",
+      "category": "Symbols",
+      "response": "D",
+      "correct": false,
+      "target": "B"
+    }
+  ]
+}
